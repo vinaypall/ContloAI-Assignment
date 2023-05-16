@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>URL Shortener</title>
+  <link rel="stylesheet" type="text/css" href="/styles.css">
+</head>
+<body>
+  <h1>URL Shortener</h1>
+  <form id="shortenForm">
+    <input type="text" id="originalURL" placeholder="URL">
+    <button type="submit">Shorten</button>
+  </form>
+  <div class="result">
+    <p id="shortenedURL"></p>
+  </div>
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="/main.js"></script>
+</body>
+</html>
